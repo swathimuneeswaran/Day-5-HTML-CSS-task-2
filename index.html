@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT UPDATE PAGE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+        <h3>Event Form</h3>
+        <p>No of Seats Available:20</p>
+        </div>
+        <div class="bigbox">
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://t3.ftcdn.net/jpg/06/17/13/26/360_F_617132669_YptvM7fIuczaUbYYpMe3VTLimwZwzlWf.jpg" alt="professional pic" width="200px" height="240px">
+                </div>
+                <div class="col-6">
+                    <form action="/action_page.php">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="number">Phone no:</label>
+                    <input for="number" id="number" name="Phone"><br>
+                    <label for="quantity">Number of seats</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="20"><br>
+                    <label for="name">Attende2 Name:</label>
+                    <input type="text" id="name2" name="name"><br>
+                    <button class="btn btn-primary submit" type="submit">Submit</button>
+                    <button class="btn btn-primary cancel" type="submit">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
